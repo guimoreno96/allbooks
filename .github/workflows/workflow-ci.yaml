@@ -19,9 +19,9 @@ jobs:
       with:
         node-version: 18.
     - name: Install dependencies
-      working-directory: allbooks/allbooks-aula-01
+      working-directory: allbooks-aula-01
       run: npm install
       
     - name: Run tests
-      working-directory: allbooks/allbooks-aula-01
+      working-directory: allbooks-aula-01
       run: npm test
